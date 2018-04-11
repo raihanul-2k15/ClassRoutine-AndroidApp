@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Useless Class Routine</string>
+    <string name="intentDataKey_alarmType">alarmType</string>
+    <string name="intentDataVal_alarmType_routine">routine</string>
+    <string name="intentDataVal_alarmType_message">message</string>
+    <string name="intentDataKey_alarmTicker">alarmTicker</string>
+    <string name="intentDataKey_alarmTitle">alarmTitle</string>
+    <string name="intentDataKey_alarmText">alarmText</string>
+    <string name="intentDataKey_initialTab">initialTab</string>
+    <string name="intentDataVal_initialTab_board">board</string>
+    <string name="ntfy_xNewMsg"> new messages</string>
+    <string name="ntfy_newMsgContentText">Tap to view</string>
+
+    <string name="main_txtPostText">Post your message to the message board as admin: </string>
+    <string name="main_toastMsgShort">Message too short</string>
+    <string name="main_toastPwdIncorrect">Password incorrect. Go to Settings and change it</string>
+    <string name="main_toastNoConnection">Could not connect to server</string>
+    <string name="main_toastBoardNotFound">Message board not found</string>
+    <string name="main_toastUnknownError">Unknown error has occured</string>
+    <string name="main_toastPostSuccessful">Message posted successfully</string>
+
+
+    <string name="settings_txtBatchText">Batch</string>
+    <string name="settings_txtDepartmentText">Department</string>
+    <string name="settings_txtGroupText">Group</string>
+    <string name="settings_txtMessagePostPasswordText">Board Admin Password</string>
+    <string name="settings_txtNotificationText">Notification</string>
+    <string name="settings_txtRoutineSoundText">Routine Sound</string>
+    <string name="settings_txtMessageSoundText">Message Sound</string>
+    <string name="settings_txtCheckIntervalText">Check messages every</string>
+    <string name="settings_txtBoardAddressText">Message Board Address</string>
+    <string name="settings_toastSavedSettings">Settings saved</string>
+
+    <string-array name="settings_spnCheckInterval_values">
+        <item>3 Hours</item>
+        <item>6 Hours</item>
+        <item>12 Hours</item>
+        <item>1 Day</item>
+    </string-array>
+    <string-array name="routine_columnHeaders">
+        <item>Day</item>
+        <item>8:00 to 8:50</item>
+        <item>8:50 to 9:40</item>
+        <item>9:40 to 10:30</item>
+        <item>10:40 to 11:30</item>
+        <item>11:30 to 12:20</item>
+        <item>12:20 to 1:10</item>
+        <item>2:30 to 3:20</item>
+        <item>3:20 to 4:10</item>
+        <item>4:10 to 5:00</item>
+    </string-array>
+    <string-array name="routine_dayNames">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+    </string-array>
+
+    <string name="main_btnPostText">Post Message</string>
+</resources>
